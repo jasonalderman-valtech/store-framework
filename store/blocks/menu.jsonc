@@ -11,6 +11,20 @@
     }
   },
 
+  "menu-item#major-appliances": {
+    "props": {
+      "type": "category",
+      "highlight": true,
+      "itemProps": {
+        "categoryId": 1, 
+        "text": "Major Appliances"
+      }
+    },
+    "children": [
+      "vtex.menu@2.x:submenu#major"
+    ]
+  },
+
   "vtex.menu@2.x:submenu#major":{
     "children":[
       "vtex.menu@2.x:menu#major"
