@@ -12,14 +12,6 @@
   },
 
   "menu-item#major-appliances": {
-    "props": {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 1, 
-        "text": "Major Appliances"
-      }
-    },
     "blocks": [
       "vtex.menu@2.x:submenu#major"
     ]
@@ -76,7 +68,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 2, 
+        "categoryId": 3, 
         "text": "Electronics"
       }
     },
