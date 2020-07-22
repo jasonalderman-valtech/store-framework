@@ -13,15 +13,15 @@
   },
   "search-result-layout.customQuery": {
     "props": {
-      // use "Blue Top Retro Camera" as `query`...not sure if this goes inside querySchema?
+      // use "Blue Top Retro Camera" as `query`...not sure if this goes inside querySchema?,
+      "query": "Blue Top Retro Camera",
       "querySchema": {
         // sorts by latest release date
         "orderByField": "OrderByReleaseDateDESC",
         // hides unavailable items
         "hideUnavailableItems": true,
         // display max of 8 items per page
-        "maxItemsPerPage": 8,
-        "query": "Blue Top Retro Camera"
+        "maxItemsPerPage": 8
       }
     }
   }
