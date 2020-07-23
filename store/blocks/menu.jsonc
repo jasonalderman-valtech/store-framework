@@ -16,9 +16,11 @@
       "highlight": true,
       "itemProps": {
         "text": "Major Appliances"
-      }
-    },
-    "children": ["vtex.menu@2.x:submenu#major"]
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#major"
+      ]
+    }
   },
   "menu-item#small-appliances": {
     "props": {
