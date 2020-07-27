@@ -6,16 +6,15 @@
     },
 
   "vtex.menu@2.x:menu#drawer": {
-      // "children": [
-      //   "menu-item#major-appliances-acc",
-      //   "menu-item#small-appliances-acc",
-      //   "menu-item#electronics-acc"
-      // ],
+      "children": [
+        "menu-item#major-appliances-acc",
+        "menu-item#small-appliances-acc",
+        "menu-item#electronics-acc"
+      ],
       "props":{
           "orientation": "vertical"
       }
     },
-  /*
   "menu-item#major-appliances-acc": {
       "props":
     {
@@ -57,7 +56,7 @@
     "blocks": [
       "vtex.menu@2.x:submenu.accordion#electronics"
     ]
-  }, */
+  },
   "vtex.menu@2.x:submenu.accordion#major":{
       "children":[
           "vtex.menu@2.x:menu#major"
