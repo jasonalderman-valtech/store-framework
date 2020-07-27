@@ -22,31 +22,35 @@
     "children": ["accepted-payment-methods"]
   },
   "accepted-payment-methods": {
-    "paymentMethods": [
-      "mastercard",
-      "visa",
-      "diners club"
-    ],
-    "showInColor": true
+    "props": {
+      "paymentMethods": [
+        "mastercard",
+        "visa",
+        "diners club"
+      ],
+      "showInColor": true
+    }
   },
   "flex-layout.col#footer-right-desktop": {
     "children": ["social-networks"]
   },
   "social-networks": {
-    "socialNetworks": [
-      {
-        "url": "https://facebook.com/flatflat",
-        "name": "facebook"
-      },
-      {
-        "url": "https://instagram.com/flatflat",
-        "name": "instagram"
-      },
-      {
-        "url": "https://twitter.com/flatflat",
-        "name": "twitter"
-      }
-    ],
-    "showInColor": true
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/flatflat",
+          "name": "facebook"
+        },
+        {
+          "url": "https://instagram.com/flatflat",
+          "name": "instagram"
+        },
+        {
+          "url": "https://twitter.com/flatflat",
+          "name": "twitter"
+        }
+      ],
+      "showInColor": true
+    }
   }
 }
